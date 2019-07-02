@@ -1,0 +1,32 @@
+spring:
+ security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://ricardojudo.auth0.com/
+#          publicKeyValue: |
+#            -----BEGIN CERTIFICATE-----
+#            MIIDBTCCAe2gAwIBAgIJNp2gi5nNBmj5MA0GCSqGSIb3DQEBCwUAMCAxHjAcBgNV
+#            BAMTFXJpY2FyZG9qdWRvLmF1dGgwLmNvbTAeFw0xOTA2MjgyMDU0NTNaFw0zMzAz
+#            MDYyMDU0NTNaMCAxHjAcBgNVBAMTFXJpY2FyZG9qdWRvLmF1dGgwLmNvbTCCASIw
+#            DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALrVn6AyN4Uzjdi/uSTsGuLMBCUk
+#            15tm7vSijmegRy0GzO/dpvFCHsQ4TOvBhLepFobPByYgeabBa9MUWxs7E4W9isvJ
+#            57tEk/WaQp0hpcPDkrEhDWw7n2vvtLLAcXiYhE5iC8UvxlmHmDQcgeBoLXdI9brJ
+#            sCjio2HUjXgd8HMulOj0hJVNTdAThKkeYW3FIHrZ3pGsOAH0KI9JN3PRL+/WxxK6
+#            OPDm7T4oS6pjx7z09/6w3RMuuT7Bw2pOKRV7VJdrqWjOYT/PJhgPzGohIje7pNwR
+#            kJzIyNMRjrMSTOYTBJOGIZeRJjZ+bbdyxD6G9LLSiR07uyV70gGQBrSGvnUCAwEA
+#            AaNCMEAwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUegOxXXwgRs6ffXJ4eQ0u
+#            v/KYKV4wDgYDVR0PAQH/BAQDAgKEMA0GCSqGSIb3DQEBCwUAA4IBAQAqGsHAGXHR
+#            cPd5h0bQojpvTJq7MbxNKtE8KQegRF0kAjKWgTAQ15IL8QXt3w/UKxr7ETCQKjHd
+#            BJtbWmGIH38Ylb8yVPOzEG77wIYz6S5d5MQSEg6DgEYnKOl4NKU+5jTu1jczqeQT
+#            K3BJlRIk50+nDxAseFdzjPfIv97zN1lby81vd/gNlSzhx32nYCMUBYHTxXDhl3ES
+#            +FHaVnpzXivTInBBAIJ3LuiKn8NZJiHYpLr/mBIWEPZAPEEF0OSZ0Q7zVn9BVaLY
+#            5kkmIxHUMBz46PKWARyCqgfGiSLJZzpw3HnAuF2AwJj0B8dheoJrlO50VOUTgvQ+
+#            o4cggIoKB3Iv
+#            -----END CERTIFICATE-----
+            
+logging:
+  level:
+    org.springframework: debug
+    org.springframework.boot.autoconfigure.security.oauth2: debug     
+    
