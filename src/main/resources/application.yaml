@@ -4,7 +4,7 @@ spring:
       resourceserver:
         jwt:
           issuer-uri: https://ricardojudo.auth0.com/
-#          publicKeyValue: |
+#          keyValue: |
 #            -----BEGIN CERTIFICATE-----
 #            MIIDBTCCAe2gAwIBAgIJNp2gi5nNBmj5MA0GCSqGSIb3DQEBCwUAMCAxHjAcBgNV
 #            BAMTFXJpY2FyZG9qdWRvLmF1dGgwLmNvbTAeFw0xOTA2MjgyMDU0NTNaFw0zMzAz
